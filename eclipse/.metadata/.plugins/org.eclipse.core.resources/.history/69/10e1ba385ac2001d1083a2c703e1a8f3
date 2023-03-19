@@ -1,0 +1,27 @@
+package br.com.fiap;
+
+import javax.swing.JOptionPane;
+
+public class EntradaJOption {
+
+	public static void main(String[] args) {
+		int num1 = 0, num2 = 0, num3 = 0, num4 = 0;
+		
+		
+  String aux; 
+  try {
+	aux = JOptionPane.showInputDialog("Coloque as notas da prova: ");
+	num1 = Integer.parseInt(aux);
+	num2 = Integer.parseInt(aux);
+	num3 = Integer.parseInt(aux);
+	num4 = Integer.parseInt(aux);
+
+	
+} catch (Exception e) {
+	// TODO: handle exception
+}
+	
+	
+	}
+
+}

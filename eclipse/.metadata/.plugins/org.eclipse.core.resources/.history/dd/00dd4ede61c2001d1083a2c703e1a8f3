@@ -1,0 +1,11 @@
+package br.com.fiap;
+
+public class ExercicioJOptionPane {
+	
+	public static void main(String[] args) {
+		
+		int anoAtual, anoNasc, idade;
+		
+		
+	}
+}
